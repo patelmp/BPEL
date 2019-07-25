@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Faults>
+   <Fault>
+      <severity>warning</severity>
+      <loc/>
+      <line/>
+      <col/>
+      <file>Mediators/RouteRequest.mplan</file>
+      <name>Mediators/RouteRequest.mplan</name>
+      <fix/>
+      <msg>Assigning source "{http://www.globalcompany.com/ns/CCAuthorizationService}CCNumber" and target "{http://xmlns.oracle.com/pcbpel/adapter/db/top/gettCreditValidation}ccnb" of different QName which may generate non-valid xml as per the xsd in case of non-leaf node. If required verify manually</msg>
+   </Fault>
+</Faults>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CreditcardinfoCollection xmlns="http://xmlns.oracle.com/pcbpel/adapter/db/top/gettCreditValidation">
+   <Creditcardinfo>
+      <ccnumber>string1</ccnumber>
+      <status>string3</status>
+   </Creditcardinfo>
+   <Creditcardinfo>
+      <ccnumber>string5</ccnumber>
+      <status>string7</status>
+   </Creditcardinfo>
+   <Creditcardinfo>
+      <ccnumber>string9</ccnumber>
+      <status>string11</status>
+   </Creditcardinfo>
+</CreditcardinfoCollection>

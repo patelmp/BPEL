@@ -1,0 +1,14 @@
+<adapter-config name="gettCreditValidation" adapter="db" wsdlLocation="../WSDLs/gettCreditValidation.wsdl" xmlns="http://platform.integration.oracle/blocks/adapter/fw/metadata">
+  
+  <connection-factory UIConnectionName="soademo" location="eis/DB/soademoDatabase"/>
+  <endpoint-interaction portType="gettCreditValidation_ptt" operation="gettCreditValidationSelect">
+    <interaction-spec className="oracle.tip.adapter.db.DBReadInteractionSpec">
+      <property name="DescriptorName" value="gettCreditValidation.Creditcardinfo"/>
+      <property name="QueryName" value="gettCreditValidationSelect"/>
+      <property name="MappingsMetaDataURL" value="gettCreditValidation-or-mappings.xml"/>
+      <property name="ReturnSingleResultSet" value="false"/>
+      <property name="GetActiveUnitOfWork" value="false"/>
+    </interaction-spec>
+  </endpoint-interaction>
+
+</adapter-config>
